@@ -1,0 +1,30 @@
+.Search{
+        background-color: #efefef;
+        height: 40px;     
+        border-radius: 50px;
+        border: none;
+        width: 30%;
+        display: inline-block; 
+        margin:6px      
+}
+.Search input {
+     background-color: #efefef;
+     position: absolute;
+     width: 24.5%;
+     height: 40px;      
+     border: none;
+     border-bottom-left-radius:50px;
+     border-top-left-radius:50px;
+     padding-left:15px;
+     outline: none;
+}  
+ img{
+        width: 25px;
+        margin-right: 5px;
+        margin-top: 7px;
+        margin-right: 10px;
+        float: right;
+}
+
+ 
+ 

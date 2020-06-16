@@ -1,6 +1,17 @@
 import React from "react";
-import css  from "./style.module.css";
+import css from "./toolbar.module.css";
+import Logo from "../logo";
+import Search from "../Search";
+import Menu from "../Menu";
 const Toolbar=()=>{
-    return <div className={css.Toolbar}>toolbar</div>
+    return (
+    <div className={css.Toolbar}>
+        <div className={css.container}>
+        <Logo/> 
+        <Search/>
+        <Menu/>
+    </div>
+    </div>
+    );
 }
 export default Toolbar;
