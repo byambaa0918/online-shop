@@ -7,9 +7,10 @@ const Search=(props)=>{
             <input
               type="search"
               placeholder="Хайх утга оруулна уу"           
-            />       
+            />
+            <div className={css.imgdiv}>      
               <img src={icon} />
-           
+            </div> 
   </div>
     );
 }

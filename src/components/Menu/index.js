@@ -7,9 +7,9 @@ import basket from "../MenuItem/basket.jpg";
 const Menu=()=>(
     <div className={css.Menu}>
         <ul >
-           <MenuItem text="Хадгалсан" imgname={saved}/>
-           <MenuItem text="Сагс" imgname={basket}/>
            <MenuItem text="Нэвтрэх" imgname={login}/>
+           <MenuItem text="Сагс" imgname={basket}/>   
+           <MenuItem text="Хадгалсан" imgname={saved}/>      
         </ul>
     </div>
 );
