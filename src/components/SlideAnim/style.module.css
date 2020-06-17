@@ -1,0 +1,10 @@
+.slideContainer {
+  width: 100%;
+  height: 50%;
+}
+
+.eachSlide > div {
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+}
