@@ -1,3 +1,5 @@
+
+<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -9,5 +11,15 @@ ReactDOM.render(
     <App />
   </BrowserRouter>,
   document.getElementById("root")
+=======
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from "./pages/App/App";
+import * as serviceWorker from './serviceWorker';
+ReactDOM.render( 
+    <App />,
+  document.getElementById('root')
+>>>>>>> 17662b0e746d97505f520ce3b8a4667d5b295ad8
 );
 serviceWorker.unregister();

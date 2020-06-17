@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/pages/App.js
 import React, { Component } from "react";
 import Toolbar from "../components/toolbar";
 import SlideAnim from "../components/SlideAnim";
@@ -31,6 +32,20 @@ class App extends Component {
         <Bottom />
       </div>
     );
+=======
+import React, { Component } from 'react';
+import Topbar from '../../components/topbar';
+import Toolbar from '../../components/toolbar';
+class App extends Component{
+  render(){
+  return (
+    <div>
+      <Topbar/>
+      <Toolbar/>
+      <div class="test  "></div>
+    </div>
+  );
+>>>>>>> 17662b0e746d97505f520ce3b8a4667d5b295ad8:src/pages/App/App.js
   }
 }
 
