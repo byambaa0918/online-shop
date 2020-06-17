@@ -7,8 +7,11 @@ const ProductCard = (props) => {
       <div>
         <img src={props.pic} alt="zurag" className={css.pic}></img>
       </div>
-      <h2>ҮНЭ:{props.price}$</h2>
-      <h1>{props.exp}</h1>
+      <div className={css.price}>ҮНЭ:{props.price}$</div>
+      <div>
+        <h1>{props.exp}</h1>
+      </div>
+
       <button>Сагслах</button>
     </div>
   );

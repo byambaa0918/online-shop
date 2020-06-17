@@ -1,40 +1,75 @@
 .Card {
-  width: 18%;
-  height: 400px;
+  width: 22vw;
+  height: 46vw;
   margin: 3%;
+  display: block;
+
   text-align: center;
   box-sizing: border-box;
-  border: 1px solid grey;
-  box-shadow: 2px 2px 2px 2px black;
+  border: 1px solid #e5e8e8;
+  border-radius: 8px;
+
   /* background-color: yellow; */
 }
-@media (mi) {
-}
-.pic {
-  padding: 5px;
-  width: 80%;
-  height: 150px;
-}
-.Card h2 {
-  font-size: 30px;
-  color: red;
-  font-style: bold;
-}
-.Card h1 {
-  font-size: 15px;
-  font-style: italic;
-}
-.Card button {
-  background-color: red;
-  border: 0ch;
-  border-radius: 7px;
-  width: 80%;
-  height: 30px;
-  font-size: 25px;
-  margin-bottom: 0px;
-  color: white;
-}
-/* @media (max-width: 500px) {
+@media (max-width: 590px) {
   .Card {
+    width: 120px;
   }
-} */
+}
+@media (min-width: 800px) {
+  .Card {
+    height: 400px;
+    width: 250px;
+    margin: 1%;
+  }
+  .pic {
+    padding-top: 5px;
+    height: 190px;
+  }
+  .price {
+    font-size: 40px;
+    color: red;
+    font-style: bold;
+  }
+  .Card h1 {
+    font-size: 15px;
+    font-style: italic;
+  }
+  .Card button {
+    background-color: red;
+    border: 0ch;
+    border-radius: 7px;
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: white;
+  }
+}
+@media (max-width: 799px) {
+  .pic {
+    padding-top: 3px;
+    padding: 5px;
+    width: 80%;
+    height: 20vw;
+  }
+  .price {
+    font-size: 5vw;
+    color: red;
+    font-style: bold;
+  }
+  .Card h1 {
+    font-size: 2vw;
+    font-style: italic;
+  }
+  .Card button {
+    background-color: red;
+    border: 0ch;
+    border-radius: 7px;
+    width: 80%;
+    height: 4vw;
+    font-size: 2vw;
+    margin-bottom: 0px;
+    color: white;
+  }
+}
