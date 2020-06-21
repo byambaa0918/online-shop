@@ -6,6 +6,7 @@ const ProductCard = (props) => {
     <div className={css.Card} onClick="">
       <div>
         <img src={props.pic} alt="zurag" className={css.pic}></img>
+        <div className={css.sale}>{props.sale}</div>
       </div>
       <div className={css.price}>ҮНЭ:{props.price}$</div>
       <div>

@@ -73,3 +73,9 @@
     color: white;
   }
 }
+
+.sale {
+  display: flex;
+  -ms-flex-align: end;
+  background-color: red;
+}

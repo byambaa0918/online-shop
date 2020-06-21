@@ -4,9 +4,9 @@ import icon from "./icon.png";
 const Search = (props) => {
   return (
     <div className={css.Search}>
-      <input type="search" placeholder="Хайх утга оруулна уу" />
+      <input type="text" placeholder="Хайх утга оруулна уу" />
       <div className={css.imgdiv}>
-        <img src={icon} alt="ds" />
+        <img src={icon} alt="/" />
       </div>
     </div>
   );

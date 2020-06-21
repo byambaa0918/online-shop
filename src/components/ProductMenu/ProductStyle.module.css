@@ -1,0 +1,8 @@
+.ProductMenu {
+  height: 50px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+}
