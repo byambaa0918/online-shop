@@ -1,0 +1,23 @@
+.ProductInformation{
+    box-sizing: border-box;
+    padding: 20px;
+    width:44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right:2%;
+    margin-left:2%;
+
+}
+
+@media(max-width:1000px){
+    .ProductInformation{
+       border-radius: 5px;
+       border: 1px solid #e5e7e9;
+        width:100%;
+        margin-bottom: 20px;
+      
+    
+    }
+    
+}

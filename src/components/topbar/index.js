@@ -1,10 +1,15 @@
 import React from "react";
 import css from "./topbar.module.css";
-import Container from "../container";
+import TopbarItem from "../TopbarItem";
 const Topbar=()=>{
     return( 
     <div className={css.Topbar}>
-        <Container/>
+                <p><strong>Online-Shop</strong></p>
+                <TopbarItem>Мэдээ видео</TopbarItem>
+                <TopbarItem>Дэлгүүрийн байршил</TopbarItem>
+                <TopbarItem>Тусламж</TopbarItem>
+                <TopbarItem>Холбоо барих</TopbarItem>   
+                
     </div>
     );
 }

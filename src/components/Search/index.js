@@ -1,12 +1,12 @@
 import React from "react";
 import css from "./style.module.css";
-import icon from "./icon.png";
+import {FaSearch} from "react-icons/fa"
 const Search = (props) => {
   return (
     <div className={css.Search}>
       <input type="text" placeholder="Хайх утга оруулна уу" />
       <div className={css.imgdiv}>
-        <img src={icon} alt="/" />
+          <FaSearch/>
       </div>
     </div>
   );

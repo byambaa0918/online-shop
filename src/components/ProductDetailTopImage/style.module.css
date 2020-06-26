@@ -1,0 +1,18 @@
+.ProductDetailTopImage{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    height: 60px;
+    margin: 5px;
+}
+.ProductDetailTopImage img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;  
+    border: 2px solid red;
+}
+@media(max-width:1000px){
+    .ProductDetailTopImage{
+        display: none;
+    }
+}

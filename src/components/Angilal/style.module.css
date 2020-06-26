@@ -1,0 +1,14 @@
+.Hamburg {
+    z-index: 50;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 10px 10px;
+    box-sizing: border-box; /*horondoh zai ijil bna*/
+  }
+  .Hamburg div {
+    background-color: red;
+    height: 4px;
+  }

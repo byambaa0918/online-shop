@@ -1,0 +1,18 @@
+.ProductDetailBasket{
+    width:100%;
+    background-color:#fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom:0px;
+    border: 1px solid #e5e7e9;
+    height: 160px;
+}
+@media(max-width:600px){
+    .ProductDetailBasket{
+        width:100%;
+    }
+}

@@ -1,12 +1,15 @@
 .Topbar {
   margin: 0 0 0 0;
-
-  width: 100%;
   border-bottom: 1px solid #d0d6d6;
-  padding: 5px 5%;
+  padding: 5px 50px;
   z-index: 501;
-
   background-color: white;
+  
+
+}
+.Topbar p{ 
+  display: inline-block;  
+  margin: 0 0 0 0;     
 }
 @media (max-width: 600px) {
   .Topbar {
