@@ -5,9 +5,7 @@
     align-items: center;
     box-sizing: border-box;
     justify-content:space-between;
-    margin-left: 2px;
-
-   
+    margin-left: 10px;
 }
 .MenuItem img{ 
     width: 30px;
@@ -17,10 +15,15 @@
     text-decoration: none; 
     font-size: 14px;
     color:#252525;
+    margin-left: 2px;
 }
-.MenuItem a:hover{
+.colors:hover{
+    color: red;
+}
+/* .MenuItem a:hover{
    color: red;
-}@media (max-width: 600px) {
+} */
+@media (max-width: 600px) {
  
     .MenuItem a{
         width: 0px;

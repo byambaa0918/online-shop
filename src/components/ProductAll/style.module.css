@@ -1,0 +1,19 @@
+.Flex {
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+  }
+  .all {
+    width: 100%;
+  }
+  @media (min-width: 2100px) {
+    .Flex {
+      width: 2100px;
+    }
+    .all {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

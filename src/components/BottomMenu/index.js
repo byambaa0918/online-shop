@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./style.module.css";
 import Tuhai from "../Tuhai";
-import { Route, Switch } from "react-router-dom";
+import { Route} from "react-router-dom";
 const Bottom = () => {
   return (
     <div>

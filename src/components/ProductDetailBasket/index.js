@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./style.module.css";
-import ProductDetailTitle from "../ProductDetailTitle";
 import FieldPrice from "../General/FieldPrice";
 import Button from "../General/Button";
 import FieldSeller from "../General/FieldSeller";

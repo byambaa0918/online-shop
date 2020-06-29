@@ -1,0 +1,105 @@
+.sale {
+  z-index: 500;
+  width: 33px;
+  color: white;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgba(254, 0, 1, 0.9);
+  text-align: center;
+  border: 1px solid rgba(254, 0, 1, 0.9);
+  border-radius: 5px;
+  margin: 10px 200px 50px;
+}
+.Card {
+  box-sizing: border-box;
+  border: 1px solid #e5e8e8;
+  height: 350px;
+  width: 250px;
+  font-family: "gtep", sans-serif;
+  margin: 1%;
+}
+.pic {
+  padding-top: 5px;
+  height: 190px;
+  margin-left: 10px;
+}
+.price {
+  font-size: 16px;
+  color: #fe0002;
+  margin-left: 10px;
+  font-weight: 800;
+  font-style: bold;
+}
+.disprice {
+  text-decoration: line-through;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #666;
+}
+.Card h1 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 16px; /* fallback */
+  max-height: 32px; /* fallback */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.but {
+  background-color: #fe0002;
+  border: 2px solid #fe0002;
+  align-items: center;
+  border-radius: 7px;
+  width: 35%;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: white;
+  font-family: GTEestiProText, Arial, sans-serif;
+}
+.but:hover {
+  background-color: #e74c3c;
+}
+
+.sale1 {
+  display: none;
+}
+.brand {
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  border: 0ch;
+  border-radius: 6px;
+  margin-top: 35px;
+  background-color: #ebf0f3;
+  margin-left: 200px;
+}
+.p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+
+.sale {
+  display: flex;
+  -ms-flex-align: end;
+  background-color: red;
+}
+
+.sale {
+  display: flex;
+  -ms-flex-align: end;
+  background-color: red;
+}

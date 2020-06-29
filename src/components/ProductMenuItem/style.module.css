@@ -1,0 +1,23 @@
+.item {
+  height: 100%;
+  width: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  align-content: flex-end;
+}
+.item a {
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  font-family: GTEestiProText;
+  height: 100%;
+  padding: 10px;
+  color: black;
+}
+.item a:active {
+  color: red;
+}
+.item a:hover {
+  color: red;
+}

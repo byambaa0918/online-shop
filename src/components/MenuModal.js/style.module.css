@@ -1,18 +1,18 @@
 .MenuModal {
-    width: 100%;
-    justify-content: start;
-    background-color: white;
-    z-index: 700;
-    border: 1px solid grey;
-    margin-top: 45px;
-    position: absolute;
-    border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: #fe0002;
-  
-    transition: all 0.8s ease-out;
-    right: 0;
-  }
-  .MenuModal1 {
-    display: none;
-  }
+  width: 100%;
+  justify-content: start;
+  background-color: white;
+  z-index: 700;
+  border: 1px solid grey;
+  margin-top: 45px;
+  position: absolute;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #fe0002;
+
+  transition: all 0.8s ease-out;
+  right: 0;
+}
+.MenuModal1 {
+  display: none;
+}

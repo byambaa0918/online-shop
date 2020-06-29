@@ -10,7 +10,7 @@ const ProductDetail=()=>{
                 <div class={css.ProductDetailLeft}>
                     <ProductDetailTopImage/>
                     <div >
-                        <img src="https://pc-mall.mn/uploads/products/202001/300/1578311930Dell-Latitude-7390.jpg"/>
+                        <img src="https://pc-mall.mn/uploads/products/202001/300/1578311930Dell-Latitude-7390.jpg" alt="/"/>
                     </div>
                 </div>
                 <div class={css.ProductDetailright}>                 
